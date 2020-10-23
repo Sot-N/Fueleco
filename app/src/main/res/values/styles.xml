@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="buttonStyle">@style/CustomButton</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Define the custom button with a certain background color -->
+    <style name="CustomButton" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_default</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
+
+    <!-- Define the size of the suffix inside the textview(kg,m,km/h..) -->
+    <style name="TextAppearance1" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- Define the style of alert dialog where the output result is printed -->
+    <style name="YourAlertDialogTheme" parent="android:Theme.Material">
+        <item name="android:textSize">25sp</item>
+    </style>
+
+</resources>

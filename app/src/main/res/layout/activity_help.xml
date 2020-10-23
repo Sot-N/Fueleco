@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HelpActivity"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <!--Scroll bar covering the whole layout so that the content to be visible in any screen-->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/fuel_row"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:title="Help">
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <TextView
+            android:id="@+id/helpline"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:padding="10dp"
+            android:textSize="15sp"
+            android:fontFamily="@font/roboto"
+            android:autoLink="web">
+        </TextView>
+
+        <TextView
+            android:id="@+id/link"
+            android:autoLink="all"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:textColor="#000000"
+            android:text="@string/related_links_ncar_weight_https_en_wikipedia_org_wiki_curb_weight_ndrag_coefficient_and_frontal_area_https_en_wikipedia_org_wiki_automobile_drag_coefficient_nfuel_type_https_en_wikipedia_org_wiki_energy_density_ndensity_of_air_https_en_wikipedia_org_wiki_density_of_air_nfuel_emissions_https_people_exeter_ac_uk_twdavies_energy_conversion_nrolling_resistance_coefficients_automotive_handbook_4th_ed_robert_bosch_gmbh"
+            android:focusable="true">
+        </TextView>
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

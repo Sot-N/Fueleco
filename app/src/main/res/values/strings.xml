@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Fueleco</string>
+    <string name="google_android_map_api_key">Map API key</string>
+    <string name="road_type">road type</string>
+    <string name="height_difference_m">Height difference(m)</string>
+    <string name="fuel">Fuel</string>
+    <string name="temperature">temperature</string>
+    <string name="car_name">Car name</string>
+    <string name="fuel_efficiency">Fuel efficiency</string>
+    <string name="gross_weight">Gross weight</string>
+    <string name="drug_coefficient">Drug Coefficient</string>
+    <string name="next">next</string>
+    <string name="related_links_ncar_weight_https_en_wikipedia_org_wiki_curb_weight_ndrag_coefficient_and_frontal_area_https_en_wikipedia_org_wiki_automobile_drag_coefficient_nfuel_type_https_en_wikipedia_org_wiki_energy_density_ndensity_of_air_https_en_wikipedia_org_wiki_density_of_air_nfuel_emissions_https_people_exeter_ac_uk_twdavies_energy_conversion_nrolling_resistance_coefficients_automotive_handbook_4th_ed_robert_bosch_gmbh">Related links: \nCar weight:https://en.wikipedia.org/wiki/Curb_weight \nDrag coefficient and frontal area: https://en.wikipedia.org/wiki/Automobile_drag_coefficient \nFuel type: https://en.wikipedia.org/wiki/Energy_density \nDensity of air: https://en.wikipedia.org/wiki/Density_of_air \nFuel emissions: https://people.exeter.ac.uk/TWDavies/energy_conversion/ \nRolling resistance coefficients: Automotive Handbook, 4th ed., Robert Bosch GmbH</string>
+    <string name="car_weight">Car weight</string>
+    <string name="drag_coefficient">Drag coefficient</string>
+    <string name="frontal_area">Frontal area</string>
+    <string name="add_car_properties">Add car properties</string>
+    <string name="view_car_properties">View car properties</string>
+    <string name="select_car">Select car</string>
+    <string name="delete_car">Delete car</string>
+    <string name="Continue">Continue</string>
+    <string name="load">Load</string>
+    <string name="altitude">Altitude</string>
+    <string name="speed">Speed</string>
+    <string name="distance">Distance</string>
+    <string name="price">Price</string>
+    <string name="calculate">Calculate</string>
+</resources>
